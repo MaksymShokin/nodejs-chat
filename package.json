@@ -1,0 +1,26 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Node chatbot powered by Chat GPT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksymShokin/nodejs-chat.git"
+  },
+  "author": "Maksym Shokin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaksymShokin/nodejs-chat/issues"
+  },
+  "homepage": "https://github.com/MaksymShokin/nodejs-chat#readme",
+  "dependencies": {
+    "color": "^4.2.3",
+    "dotenv": "^16.3.1",
+    "openai": "^4.17.4",
+    "readline-sync": "^1.4.10"
+  }
+}
